@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    /* this allows you to intuitively make the width and height of elements
+    the actual width and height. The content will shrink to accomodate the
+    padding and boreder.  */
+    /* This is the alternative css box model.  */
+}
+.cme1 {
+    margin: 0 0 20px 0;
+}
+
+.cme2 {
+    margin: 10px 0 0 0;
+}
+
+/* margin works from top, right, bottom, left */
+/* cme1 = collapsing margin element 1 */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background-color: brown;
+    border: 4px solid lightgreen;
+    height: 100px;
+    flex: 1;
+}
+
+/* Helpful Tips: alt + mouse clicks allows you to make changes on multiple lines at one time.
+ctrl + D highlights the entire word, ctrl + D highlights over and over again
+highlights the next word that is the same.
+ctrl + P allows you to search for files and open them.
+ctrl + shift + P allows you to run different commands. */
+/* ctrl + / allows you to comment out lines of code. */
+
+/* to summarize specificity
+- id's are the most specific (id="clean" #clean)
+- classes are next (class="water" .water)
+- then elements (p,ul,img,div)
+when an element is targeted by more that one selector the more specific one wins.
+If they are equally specific there are tie breaks. First being number of selectors. */
